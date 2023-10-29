@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+.name{
+    padding-top: 50px;
+}
+.vl {
+    border-left: 2px solid green;
+    height: 100%;
+}
+.card-block{
+    padding-left: 20px;
+}
+.desc{
+    font-size: 10px;
+}
+.sp{
+    padding-top: 20px;
+}
+.border{
+    padding-left: 10px;
+}
+.price{
+    color: green;
+}
+.pay-btn{
+    font-size: 20px;
+}
+.addmed{
+    border-radius: 8px;
+    border: 1px solid #083869;
+    background: #E3F8FF;
+    color: #083869;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title1 {
+    color: var(--Text-Primary-color, #11142D);
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.titlebtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.shoppingcarttitle {
+    color: var(--Text-Primary-color, #11142D);
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 30px;
+}
+
+.totalbutton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 30px;
+}
+
+.totalprice {
+    border-radius: 10px;
+    border: 1px solid #D3D3D3;
+    background: #FFF;
+    padding: 10px;
+    color: #2C2A2B;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 20px;
+}
+
+.text1 {
+    background: var(--Blue, linear-gradient(0deg, #40B3DA 0%, #073667 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}

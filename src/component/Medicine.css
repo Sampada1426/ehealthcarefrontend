@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.card {
+    margin: 30px;
+    width: 95%;
+    border: 1px solid #E1E4EB;
+}
+
+.meddes{
+    text-align: left;
+    font-style:italic;
+}
+
+.button {
+    border-radius: 4px;
+    background: var(--Blue, linear-gradient(0deg, #40B3DA 0%, #073667 100%));
+    padding: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.titlesearch {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin:30px;
+}
+
+.title1 {
+    color: var(--Text-Primary-color, #11142D);
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.search {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 74px;
+    border: 0.5px solid #2C2A2B;
+    background: #FFF;
+    padding: 10px;
+    width: 80%;
+}
+
+.searchbar {
+    color: #2C2A2B;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    border: none;
+    outline: none;
+}

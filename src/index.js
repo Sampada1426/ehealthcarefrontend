@@ -3,12 +3,45 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
+import {Medicine} from './component/Medicine';
+import { AdminDashboard } from './component/AdminDashboard';
+import { Admin } from './component/Admin';
+import {Login} from './component/login';
+import MedDetail from './component/MedDetail';
+import PayNow from './component/PayNow';
+import { Addmed } from './component/addmed';
+import { Userlist } from './component/userlist';
+import {Register} from './component/register';
+
+
+
+
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  
+    <Router>
+      <Routes>
+        <Route path='/' element={<App/>}/>   
+        <Route path='/login' element={<Login/>}/>
+        <Route path='/register' element={<Register/>}/>
+        <Route path='/admindashboard' element={<AdminDashboard/>}/>
+        <Route path='/admin' element={<Admin/>}/> 
+        <Route path='/admin/add' element={<Addmed/>}/>
+        <Route path='/admin/userlist' element={<Userlist/>}/>        
+        <Route path='/medicine' element={<Medicine/>}/>
+        <Route path='/medicine/:id' element={<MedDetail/>}/>
+        <Route path='/PayNow' element={<PayNow/>}/>
+      </Routes>
+    </Router>
+  
+
+  
+
 );
 
 // If you want to start measuring performance in your app, pass a function

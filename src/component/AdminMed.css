@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+.search1 {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 74px;
+    border: 0.5px solid #2C2A2B;
+    background: #FFF;
+    padding: 10px;
+    width: 95%;
+    margin: 30px;
+}
+
+.searchbar1 {
+    color: #2C2A2B;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    border: none;
+    outline: none;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+}
+
+.dashtext {
+    color: var(--Text-Primary-color, #11142D);
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.dashtext1 {
+    color: #252525;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.dash {
+    display: flex;
+}
+
+.dashbox {
+    box-sizing: border-box;
+    width: 350px;
+    height: 150px;
+    background: #E3F8FF;
+    border: 1px solid #083869;
+    border-radius: 15px;
+    margin: 20px 30px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.addview {
+    color: #083869;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.icon1 {
+    margin-left: 72%;
+    margin-bottom: 15px;
+}
+
+.icon2 {
+    margin-left: 70%;
+    margin-bottom: 20px;
+}
